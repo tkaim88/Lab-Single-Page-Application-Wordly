@@ -2,6 +2,14 @@
 
 A simple dictionary Single Page Application (SPA) that lets you search for words, get definitions, listen to pronunciations, save favorite words, and switch between light and dark mode.
 
+## About Me
+
+Hi, I'm Thomas! This is my Wordly Dictionary project for my web development course.
+
+**🔗 Live Demo:** [Wordly Dictionary](https://lab-single-page-application-wordly-569xx87wf-tkaim88s-projects.vercel.app)
+
+Feel free to try it out! Search for any word, save your favorites, and switch to dark mode. 
+
 ## Live Demo
 
 Open `index.html` in your browser to run the application.
