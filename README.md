@@ -38,9 +38,9 @@ Open `index.html` in your browser to run the application.
 
 ## Technologies Used
 
-- **HTML5** - Page structure
-- **CSS3** - Styling and dark mode
-- **JavaScript (ES6+)** - Functionality, API calls, DOM manipulation
+- **HTML** - Page structure
+- **CSS** - Styling and dark mode
+- **JavaScript** - Functionality, API calls, DOM manipulation
 - **Free Dictionary API** - Word data source
 - **Jest** - Testing framework
 
