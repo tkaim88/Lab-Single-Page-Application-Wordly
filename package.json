@@ -1,0 +1,17 @@
+{
+  "name": "wordly-dictionary",
+  "version": "1.0.0",
+  "description": "Simple dictionary app",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+   "jest": {
+    "testEnvironment": "jsdom",
+    "verbose": true
+   },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "jest-environment-jsdom": "^30.3.0"
+  }
+}

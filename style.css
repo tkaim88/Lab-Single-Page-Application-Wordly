@@ -1,0 +1,228 @@
+/* Basic styling for Wordly Dictionary */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f2f5;
+  padding: 20px;
+}
+
+/* Dark mode */
+body.dark {
+  background-color: #1a1a2e;
+  color: white;
+}
+
+body.dark .container {
+  background-color: #16213e;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #4a5568;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+  color: #718096;
+  margin-bottom: 20px;
+}
+
+/* Dark mode button */
+#darkModeBtn {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 8px 20px;
+  background-color: #4a5568;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4299e1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3182ce;
+}
+
+/* Loading and error messages */
+#loadingMessage {
+  background-color: #edf2f7;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 15px 0;
+  text-align: center;
+}
+
+#errorBox {
+  background-color: #fed7d7;
+  color: #c53030;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 15px 0;
+  border-left: 4px solid #c53030;
+}
+
+/* Results styles */
+.wordCard {
+  background-color: #f7fafc;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+body.dark .wordCard {
+  background-color: #1e2a3a;
+}
+
+.wordTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.wordTitle h2 {
+  color: #4299e1;
+}
+
+.pronounce {
+  color: #718096;
+  font-style: italic;
+  margin: 5px 0;
+}
+
+.meaningBox {
+  background-color: white;
+  padding: 12px;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  border-left: 3px solid #4299e1;
+}
+
+body.dark .meaningBox {
+  background-color: #0f3460;
+}
+
+.meaningBox h4 {
+  color: #4299e1;
+  margin-bottom: 8px;
+}
+
+.definition {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+.example {
+  color: #718096;
+  font-style: italic;
+  margin-top: 6px;
+  padding-left: 10px;
+}
+
+.synonymList {
+  margin-top: 8px;
+}
+
+.synonymBadge {
+  display: inline-block;
+  background-color: #48bb78;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+/* Buttons inside results */
+.listenBtn {
+  background-color: #38b2ac;
+  margin-right: 8px;
+}
+
+.saveBtn {
+  background-color: #ed64a6;
+}
+
+/* Saved words */
+#savedSection {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 2px solid #e2e8f0;
+}
+
+#savedSection h2 {
+  color: #4a5568;
+  margin-bottom: 15px;
+}
+
+.savedWord {
+  display: inline-block;
+  background-color: #edf2f7;
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+body.dark .savedWord {
+  background-color: #1e2a3a;
+}
+
+.savedWord:hover {
+  background-color: #4299e1;
+  color: white;
+}
+
+.deleteWord {
+  margin-left: 6px;
+  cursor: pointer;
+  color: #e53e3e;
+}
+
+/* Utility class */
+.hidden {
+  display: none;
+}
