@@ -158,7 +158,7 @@ Free Dictionary API for providing free word data
 My web development instructor for guidance on this project
 
 Author
-Student Project - Web Development Course
+Student Thomas komora buko - Web Development Course
 
 Grade Requirements Met
 Single Page Application (no page reloads)
