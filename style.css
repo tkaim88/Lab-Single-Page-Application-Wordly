@@ -101,6 +101,7 @@ button:hover {
   border-left: 4px solid #c53030;
 }
 
+
 /* Results styles */
 .wordCard {
   background-color: #f7fafc;
@@ -225,4 +226,35 @@ body.dark .savedWord {
 /* Utility class */
 .hidden {
   display: none;
+}
+
+/* Improve dark mode text visibility */
+body.dark h1,
+body.dark p,
+body.dark h2,
+body.dark h4 {
+  color: white;
+}
+
+body.dark .container {
+  background-color: #16213e;
+}
+
+body.dark {
+  color: white;
+}
+
+body.dark h1,
+body.dark p,
+body.dark h2,
+body.dark h4 {
+  color: white;
+}
+
+body.dark .wordCard {
+  background-color: #1e2a3a;
+}
+
+body.dark .meaningBox {
+  background-color: #0f3460;
 }

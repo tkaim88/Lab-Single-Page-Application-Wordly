@@ -4,39 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wordly Dictionary</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
     <h1>📖 Wordly Dictionary</h1>
     <p>Search for any word to get its definition, pronunciation, and more!</p>
 
-    <!-- Theme Toggle Button -->
-    <button id="themeBtn">🌙 Dark Mode</button>
+    <!-- FIXED IDs -->
+    <!-- Theme Toggle button -->
+    <button id="darkModeBtn">🌙 Dark Mode</button>
 
     <!-- Search Form -->
     <form id="searchForm">
-      <input type="text" id="wordInput" placeholder="Enter a word (e.g., hello, happy)" required>
+      <input type="text" id="wordInput" placeholder="Enter a word..." required>
       <button type="submit">Search</button>
     </form>
 
-    <!-- Loading Indicator -->
-    <div id="loading" class="hidden">
+    <!-- Loading message -->
+    <div id="loadingMessage" class="hidden">
       <p>Loading...</p>
     </div>
 
-    <!-- Error Message -->
-    <div id="errorMessage" class="hidden">
-      <p id="errorText"></p>
+    <!-- Error Message Box -->
+    <div id="errorBox" class="hidden">
+      <p id="errorMsg"></p>
     </div>
 
-    <!-- Results Area -->
-    <div id="results"></div>
+    <div id="resultsArea"></div>
 
-    <!-- Saved Words Section -->
     <div id="savedSection">
       <h2>❤️ Saved Words</h2>
-      <div id="savedList"></div>
+      <div id="savedWordsList"></div>
     </div>
   </div>
 

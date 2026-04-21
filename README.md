@@ -91,6 +91,26 @@ Example response includes:
 - `meanings[].definitions[].example` - Example sentence
 - `meanings[].synonyms` - Related words
 
+
+## Bug Fixes & Improvements
+
+### Fixed Issues
+- Fixed search not working due to mismatched HTML element IDs
+- Corrected DOM element selectors in JavaScript
+- Fixed dark mode not applying due to CSS file not loading
+- Resolved incorrect stylesheet path causing MIME type error
+- Improved dark mode styles for better visibility
+
+### Improvements
+- Cleaned and simplified JavaScript structure
+- Added better error handling for API requests
+- Improved UI feedback (loading + error messages)
+- Ensured saved words feature works correctly
+
+### Notes
+The main issue was incorrect linking of the CSS file, which prevented styles (including dark mode) from applying.
+
+
 ## Setup Instructions
 
 ### To run the app:
