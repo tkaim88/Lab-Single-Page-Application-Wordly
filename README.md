@@ -6,7 +6,7 @@ A simple dictionary Single Page Application (SPA) that lets you search for words
 
 Hi, I'm Thomas! This is my Wordly Dictionary project for my web development course.
 
-**🔗 Live Demo:** [Wordly Dictionary](https://lab-single-page-application-wordly-569xx87wf-tkaim88s-projects.vercel.app)
+**🔗 Live Demo:** [Wordly Dictionary](https://lab-single-page-application-wordly.vercel.app/)
 
 Feel free to try it out! Search for any word, save your favorites, and switch to dark mode. 
 
